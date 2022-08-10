@@ -1,0 +1,15 @@
+a= int(input("kg ="))
+b=0 # 15kg ib create
+c=0 # 10kg ib create
+d=0 # 5kg ib create
+while a>0:
+    if a>=15:
+        b+=1
+        a-=15
+    elif a>=10:
+        c+=1
+        a-=10
+    else:
+        d+=1
+        a-=5
+print(b,"ящиков по 15kg,",c, "ящиков по 10kg,",d, "ящиков по 5kg")
