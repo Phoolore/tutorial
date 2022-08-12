@@ -1,0 +1,14 @@
+from random import randint
+a=[randint(150,200) for i in range(1,10)]
+x=0
+c=[]
+d=[]
+for i in a:
+    if i==max(a):
+        c+=[x]
+    
+    elif i==min(a):
+        d+=[x]
+    x+=1
+print("высочайший ученик {0}, самый низкий человек {1}".format(c,d))
+print(a)
